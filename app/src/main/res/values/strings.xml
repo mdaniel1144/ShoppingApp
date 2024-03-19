@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration">Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mail_user">Mail</string>
+    <string name="user_phone">Phone</string>
+    <string name="Password">Password</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="Search">Search</string>
+    <string name="ProductList">Products List</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+</resources>

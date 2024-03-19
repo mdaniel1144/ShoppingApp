@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.fragment_register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="387dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textViewRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/catboo"
+                android:gravity="center"
+                android:text="Registration"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/editTextUserFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:hint="@string/first_name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextUserLastName"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:hint="@string/last_name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextUserPhone"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:textDirection="ltr"
+                android:hint="@string/user_phone"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editTextUserMail"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:hint="@string/mail_user"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:hint="@string/Password"
+                android:inputType="textPassword" />
+
+
+            <EditText
+                android:id="@+id/editTextConfrimPassword"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/inputuserfocus"
+                android:ems="10"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/buttonRegistretion"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/registration" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
